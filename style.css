@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    width: 1000px;
+    height: 700px;
+    margin: 0px 100px;
+}
+nav {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.cities {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.cities h3 {
+    margin-right: 20px;
+}
+
+.navCity {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentCity {
+    margin-left: 50px;
+}
+
+hr {
+    width: 750px;
+    margin-left: 50px;
+}
+
+.forecast {
+    width: 750px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.weatherStatus {
+    text-align: center;
+    width: 160px;
+    height: 280px;
+    background-color: #d9dce2;
+    padding-top: 10px;
+}
+
+.weatherStatus img {
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.temps {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: royalblue;
+}
+
+.cookieMsg {
+    position: fixed;
+    width: 750px;
+    margin-left: 50px;
+    margin-top: 15px;
+    display: flex;
+    background-color: #d9dce2;
+    border: 3px solid black;
+}
+
+.message {
+    width: 600px;
+}
+
+button {
+    height: 30px;
+    margin-top: 25px;
+    background-color: rgb(129, 155, 235);
+    font-weight: bold;
+    padding: 0px 5px;
+    box-shadow: 2px 2px;
+}
